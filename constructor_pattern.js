@@ -9,7 +9,7 @@ function Animal(  species, animalName, food ) {
 // We can create new instances of the animal
 const lion = new Animal('Felidae', 'lion', 'meet');
 
-In Es6 way using class 
+// Es2015  using class 
 class Animal{
 constructor(species, animalName, food ){
 this._species= species;
