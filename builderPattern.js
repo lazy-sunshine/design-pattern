@@ -20,12 +20,10 @@ class AnimalBuilder{
          this.species = species;
          this.type =type;
      }
-
      setName(name){
         this.name = name;
         return this;
      }
-
      isWild(wild){
          this.wild = wild;
          return this;
@@ -34,7 +32,6 @@ class AnimalBuilder{
          this.food = food;
          return this;
      }
-
      build(){
         if(!this.name){
             throw new Error('Name is missing'); 
