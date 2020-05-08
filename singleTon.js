@@ -8,6 +8,8 @@ class Logger {
 
         this.name = name;
 
+        this.createLoggerId =  "id_" + Math.random();
+        
         return this;
     }
 
