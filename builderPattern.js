@@ -14,8 +14,6 @@ class Animal{
       }
 } 
 
-
-
 class AnimalBuilder{
 
      constructor(species, type){
@@ -41,11 +39,8 @@ class AnimalBuilder{
         if(!this.name){
             throw new Error('Name is missing'); 
         }
-
         return new Animal(this.type, this.species, this.name,this.wild,this.food);
      }
-
-
  }
 
 
