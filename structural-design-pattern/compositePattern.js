@@ -10,7 +10,7 @@ class Document{
     }
 }
 
-class DocumentComposit {
+class DocumentComposite {
 
     constructor(name){
         this.collection =[];
@@ -31,11 +31,11 @@ class DocumentComposit {
     }
 }
 
-const forms = new DocumentComposit()
+const forms = new DocumentComposite()
 const pr2Form = new Document(
   'Primary Treating Physicians Progress Report (PR2)',
 )
-const w2Form = new DocumentComposit('Internal Revenue Service Tax Form (W2)');
+const w2Form = new DocumentComposite('Internal Revenue Service Tax Form (W2)');
 forms.add(pr2Form);
 forms.add(w2Form);
 

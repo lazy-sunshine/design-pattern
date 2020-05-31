@@ -1,5 +1,5 @@
 // caching suppose there is cofee machine which if have already created a 
-//type of cofee we provide taht or we else we provide a new one.
+//type of cofee we provide that or we else we provide a new one.
 
 class coffee {
 

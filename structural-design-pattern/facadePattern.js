@@ -56,8 +56,7 @@ class autoLibrarianFacade {
 
     isStudentEligible( studentId) {
         //function will get student data from db to check if there are overstanding fine on student or 
-        //whether this student is elligible for getting books from this library
-        
+        //whether this student is legible for getting books from this library       
         return true;
     }
 

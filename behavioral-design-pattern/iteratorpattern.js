@@ -13,7 +13,7 @@ class Iterator {
                 if(this.index < this.collection.length){
                     return {
                         done:false,
-                        value : this.collection[index++]
+                        value : this.collection[this.index++]
                     }
                 }
                 else{
@@ -27,6 +27,13 @@ class Iterator {
     } 
 }
 
+// var z  = [1,2,3,4,5]
+// var k = new IteratorClass(z);
+
+// for(let p of k){
+//          window.alert(p);
+// }
+
 
 function *iteratorUsingGenerator(collection) {
     let index =0;
@@ -35,3 +42,6 @@ function *iteratorUsingGenerator(collection) {
         yield collection[index++];
     }
 }
+
+// const g = iteratorUsingGenerator(['1','2','3','4']);
+// g.next();
